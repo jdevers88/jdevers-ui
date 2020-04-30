@@ -6,3 +6,4 @@ COPY . .
 RUN npm run build --prod
 FROM nginx:latest
 COPY --from=build /usr/src/app/dist/jdevers /usr/share/nginx/html
+EXPOSE 80
