@@ -1,5 +1,5 @@
 import { Injectable, Version } from '@angular/core';
-import { SpeakerDesignerComponent } from '../speaker-designer/speaker-designer.component';
+import { SpeakerDesignerComponent } from '../components/speaker-designer/speaker-designer.component';
 import { SoftwareVersion } from '../models/software_version';
 import { Apollo } from 'apollo-angular';
 import gql from 'graphql-tag';

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {SpeakerDesignerService} from '../services/speaker-designer.service'
-import { SoftwareVersion } from '../models/software_version';
+import {SpeakerDesignerService} from '../../services/speaker-designer.service'
+import { SoftwareVersion } from '../../models/software_version';
 import { Apollo, ApolloModule } from 'apollo-angular';
 
 @Component({
